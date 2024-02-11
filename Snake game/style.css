@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 50px;
+}
+
+.score_container {
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#restart_game {
+  margin: 0 auto;
+  display: block;
+  padding: 9px 5px;
+  background: whitesmoke;
+  color: blueviolet;
+  font-weight: bold;
+  border: none;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.game {
+  height: 300px;
+  width: 300px;
+  background: grey;
+  margin: 0 auto;
+}
+
+.tile {
+  float: left;
+  margin: 0;
+  content: "";
+  background: aquamarine;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  box-shadow: inset 0px 0px 0px 1px whitesmoke;
+}
+
+.body {
+  background: bisque;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.head {
+  background: white;
+}
+
+.fruit {
+  background: red;
+  border-radius: 7px;
+}
+
+.instructions {
+  font-size: 13px;
+  color: blueviolet;
+  padding-bottom: 30px;
+}
